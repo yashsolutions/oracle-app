@@ -1,6 +1,6 @@
 var http = require('http');
 var oracledb = require('oracledb');
-var dbConfig = require('./dbconfig.js');
+var dbConfig = require('./db' + process.env.DEPLOY_ENV + '.js');
 var httpPort = 7000;
 
 // Main entry point.  Creates a connection pool, on callback creates an
