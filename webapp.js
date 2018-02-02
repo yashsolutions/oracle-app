@@ -49,7 +49,7 @@ function handleRequest(request, response, pool) {
 
   htmlHeader(
     response,
-    "Oracle Database App",
+    "Sample Database App",
     "Example using node-oracledb driver"
   );
 
@@ -152,7 +152,7 @@ function htmlHeader(response, title, caption) {
   response.write("<head>");
   response.write("<style>" +
     "body {background:#FFFFFF;color:#000000;font-family:Arial,sans-serif;margin:40px;padding:10px;font-size:12px;text-align:center;}" +
-    "h1 {margin:0px;margin-bottom:12px;background:#FF0000;text-align:center;color:#FFFFFF;font-size:28px;}" +
+    "h1 {margin:0px;margin-bottom:12px;background:#107BAF;text-align:center;color:#FFFFFF;font-size:28px;}" +
     "table {border-collapse: collapse;   margin-left:auto; margin-right:auto;}" +
     "td, th {padding:8px;border-style:solid}" +
     "</style>\n");
