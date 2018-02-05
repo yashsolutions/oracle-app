@@ -36,7 +36,6 @@ function init() {
           handleRequest(request, response, pool);
         })
         .listen(httpPort);
-
       console.log("Server running at http://localhost:" + httpPort);
     }
   );
